@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Néctar Ambitionz | Sites e catálogos digitais em Nova Friburgo</title>
+    <meta
+      name="description"
+      content="Criação de sites, catálogos digitais, social media, identidade visual e materiais com QR Code para pequenos comércios em Nova Friburgo venderem mais pelo WhatsApp."
+    >
+    <meta name="theme-color" content="#2458ff">
+    <meta property="og:title" content="Néctar Ambitionz | Sites e catálogos digitais para pequenos comércios">
+    <meta property="og:description" content="Sites, catálogos, QR Code, artes e identidade visual para pequenos comércios venderem mais pelo WhatsApp.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="assets/favicon-48.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Néctar Ambitionz",
+        "founder": "Alessandro Junior",
+        "areaServed": "Nova Friburgo, RJ, Brasil",
+        "url": "https://www.instagram.com/nectar.ambitionz/",
+        "sameAs": ["https://www.instagram.com/nectar.ambitionz/"],
+        "telephone": "+55 22 99216-4903",
+        "description": "Criação de sites, catálogos digitais, materiais com QR Code, social media, logos e identidade visual para pequenos comércios."
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Fundo animado de constelacoes. O desenho em si fica no arquivo main.js. -->
+    <canvas id="constellation" aria-hidden="true"></canvas>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <!-- EDITE AQUI: mensagens da barrinha azul que fica rodando no topo. -->
+    <!-- Dica: a lista foi repetida duas vezes para a animacao ficar continua. -->
+    <div class="top-ticker" aria-label="Destaques da Néctar Ambitionz">
+      <div class="top-ticker__track">
+        <span>Nova Friburgo • RJ • Brasil</span>
+        <span>WhatsApp disponível 24h para receber sua mensagem</span>
+        <span>Seu negócio pode vender mais com o digital certo</span>
+        <span>Catálogos digitais para WhatsApp</span>
+        <span>Sites profissionais para vender melhor</span>
+        <span>Nova Friburgo • RJ • Brasil</span>
+        <span>WhatsApp disponível 24h para receber sua mensagem</span>
+        <span>Seu negócio pode vender mais com o digital certo</span>
+        <span>Catálogos digitais para WhatsApp</span>
+        <span>Sites profissionais para vender melhor</span>
+      </div>
+    </div>
+
+    <!-- EDITE AQUI: menu, logo e botao principal do topo. -->
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Néctar Ambitionz">
+        <img src="assets/ntr-logo.png" alt="" width="42" height="42">
+        <span>Néctar <strong>Ambitionz</strong></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Abrir menu" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Menu principal" data-nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#entregas">Entregas</a>
+        <a href="#case">Case</a>
+        <a href="#portfolio">Projetos</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a class="btn btn--header" href="#" data-whatsapp data-intent="Quero vender mais online com a Néctar Ambitionz.">
+        Quero vender mais
+      </a>
+    </header>
+
+    <main id="top">
+      <!-- EDITE AQUI: primeira dobra do site, promessa principal e botoes de conversao. -->
+      <section class="hero section-band">
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Soluções digitais para comércio local</p>
+            <h1>Quer vender mais online? Eu crio o caminho até o seu WhatsApp.</h1>
+            <p class="hero__lead">
+              Sites, catálogos em PDF, cartões com QR Code, cardápios, cartazes, artes para redes sociais,
+              logos e identidade visual para pequenos negócios de Nova Friburgo e região parecerem maiores
+              e venderem com mais clareza.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#" data-whatsapp data-intent="Olá, Alessandro! Quero vender mais online e gostaria de um orçamento.">
+                Chamar no WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="#planos">Ver pacotes</a>
+            </div>
+
+            <div class="trust-row" aria-label="Diferenciais rápidos">
+              <!-- EDITE AQUI: selos pequenos abaixo dos botoes. -->
+              <span>Garrotão validado</span>
+              <span>A partir de R$599,90</span>
+              <span>Foco em WhatsApp</span>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal" aria-label="Prévia de materiais digitais da Néctar Ambitionz">
+            <div class="validation-chip">Validado no mercado</div>
+            <div class="phone-showcase">
+              <div class="phone-top"></div>
+              <div class="phone-screen">
+                <div class="mock-header">
+                  <span class="mock-logo">G</span>
+                  <span>Açougue Garrotão</span>
+                </div>
+                <!-- EDITE AQUI: card de horario/status mostrado dentro do celular. -->
+                <div class="mock-status-card">
+                  <strong>WhatsApp: 24h</strong>
+                  <small>Disponível para receber sua mensagem</small>
+                </div>
+                <div class="mock-hero">
+                  <strong>Produtos, ofertas e contato em um só lugar</strong>
+                  <small>Site + catálogo + WhatsApp</small>
+                </div>
+                <div class="mock-grid">
+                  <span>Catálogo</span>
+                  <span>QR Code</span>
+                  <span>Cartaz</span>
+                  <span>Avaliações</span>
+                </div>
+                <div class="mock-button">Pedir pelo WhatsApp</div>
+              </div>
+            </div>
+
+            <div class="floating-note floating-note--one">
+              <b>+ presença digital</b>
+              <span>para o cliente encontrar rápido</span>
+            </div>
+            <div class="floating-note floating-note--two">
+              <b>+ confiança</b>
+              <span>com visual profissional</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: faixa com 3 argumentos rapidos de venda. -->
+      <section class="proof-strip">
+        <div class="container proof-strip__grid">
+          <div>
+            <span>01</span>
+            <strong>Apresentação profissional</strong>
+            <p>Seu negócio deixa de depender só de foto solta e mensagem improvisada.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <strong>Materiais prontos para divulgar</strong>
+            <p>Artes, catálogo, QR Code e links pensados para enviar no WhatsApp.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <strong>Cliente com menos dúvida</strong>
+            <p>Produtos, preços, contato e proposta aparecem com clareza no celular.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: entregaveis concretos que o cliente recebe no projeto. -->
+      <section class="section deliverables-section" id="entregas">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Veja exatamente o que você recebe</p>
+            <h2>Não é só um site bonito. É um conjunto de materiais para vender no dia a dia.</h2>
+            <p>
+              O cliente vê sua marca no celular, no balcão, no cartão, no cartaz e no WhatsApp.
+              Tudo conversa entre si para transformar interesse em conversa.
+            </p>
+          </div>
+
+          <div class="deliverables-grid">
+            <article class="deliverable-card reveal">
+              <span>Site</span>
+              <h3>Vitrine profissional</h3>
+              <p>Uma página rápida, responsiva e pronta para apresentar seu comércio com botão de WhatsApp.</p>
+            </article>
+            <article class="deliverable-card reveal">
+              <span>Catálogo</span>
+              <h3>PDF para enviar</h3>
+              <p>Produtos organizados por categoria, com visual limpo para mandar em grupos, clientes e status.</p>
+            </article>
+            <article class="deliverable-card reveal">
+              <span>QR Code</span>
+              <h3>Acesso imediato</h3>
+              <p>O cliente escaneia e cai no site, catálogo ou conversa, sem precisar digitar nada.</p>
+            </article>
+            <article class="deliverable-card reveal">
+              <span>Cartão</span>
+              <h3>Contato no bolso</h3>
+              <p>Cartão de visita com marca, WhatsApp, URL e QR Code para entrega, balcão e divulgação.</p>
+            </article>
+            <article class="deliverable-card reveal">
+              <span>Cartaz</span>
+              <h3>Divulgação física</h3>
+              <p>Material para parede, balcão ou entrega, levando o cliente do offline para o digital.</p>
+            </article>
+            <article class="deliverable-card reveal">
+              <span>Artes</span>
+              <h3>Promoções prontas</h3>
+              <p>Stories e posts para Instagram e WhatsApp com produto, preço e marca em destaque.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: cards de servicos oferecidos pela empresa. -->
+      <section class="section" id="servicos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">O que eu crio</p>
+            <h2>Um pacote visual completo para o comércio vender melhor.</h2>
+            <p>
+              Cada peça entra para resolver uma parte da venda: chamar atenção, explicar a oferta,
+              facilitar o contato e deixar o negócio com cara de marca forte.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span class="service-icon">01</span>
+              <h3>Sites comerciais</h3>
+              <p>Páginas rápidas, responsivas e com botões diretos para orçamento, pedidos e atendimento.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon">02</span>
+              <h3>Catálogos em PDF</h3>
+              <p>Produtos organizados por categoria, com visual limpo e pronto para enviar ao cliente.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon">03</span>
+              <h3>Cartão com QR Code</h3>
+              <p>Contato, catálogo ou site acessível em segundos, no balcão, entrega ou divulgação.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon">04</span>
+              <h3>Cardápios e cartazes</h3>
+              <p>Materiais impressos e digitais para promoções, ofertas, combos e comunicação local.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon">05</span>
+              <h3>Social media</h3>
+              <p>Artes para Instagram, status do WhatsApp e campanhas simples para girar movimento.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon">06</span>
+              <h3>Logo e identidade visual</h3>
+              <p>Cores, marca e peças alinhadas para o cliente reconhecer seu negócio de primeira.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: case/prova social do Acougue Garrotao. -->
+      <section class="section section--case" id="case">
+        <div class="container case-grid">
+          <div class="case-copy reveal">
+            <p class="eyebrow">Prova principal</p>
+            <h2>O modelo já foi aplicado em um açougue movimentado e com demanda real.</h2>
+            <p>
+              No Açougue Garrotão, a ideia foi transformar divulgação espalhada em uma presença mais organizada:
+              site, catálogo, cartão com QR Code, cartaz de divulgação e incentivo para avaliações no Google.
+            </p>
+            <div class="case-flow">
+              <span>cliente vê</span>
+              <span>escaneia</span>
+              <span>acessa</span>
+              <span>chama no WhatsApp</span>
+            </div>
+            <a class="inline-link" href="https://acouguegarrotao.com" target="_blank" rel="noreferrer">
+              Ver site do Garrotão
+            </a>
+          </div>
+
+          <div class="case-board reveal">
+            <article>
+              <span>Site</span>
+              <strong>Uma vitrine aberta no celular</strong>
+              <p>O cliente encontra informações e chama no WhatsApp sem precisar procurar muito.</p>
+            </article>
+            <article>
+              <span>Catálogo</span>
+              <strong>Produtos com mais clareza</strong>
+              <p>Categorias, apresentação visual e preços ajudam a reduzir dúvidas antes do contato.</p>
+            </article>
+            <article>
+              <span>QR Code</span>
+              <strong>Do balcão para o digital</strong>
+              <p>Cartões e cartazes levam direto para site, catálogo ou conversa no WhatsApp.</p>
+            </article>
+            <article>
+              <span>Confiança</span>
+              <strong>Mais avaliações positivas</strong>
+              <p>A presença organizada facilita o cliente lembrar, acessar e recomendar.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: chamada vermelha para a pagina de portfolio do Garrotao. -->
+      <section class="section portfolio-callout-section" id="portfolio">
+        <div class="container">
+          <a class="garrotao-callout reveal" href="garrotao.html">
+            <div>
+              <p class="eyebrow">Veja o trabalho na prática</p>
+              <h2>Projeto personalizado Garrotão</h2>
+              <p>
+                Acesse a vitrine com catálogo, cartão com QR Code, cartaz, site e artes promocionais
+                criadas para um comércio real.
+              </p>
+            </div>
+            <span>Ver projeto completo</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="vantagens">
+        <div class="container value-grid">
+          <div class="value-copy reveal">
+            <p class="eyebrow">Por que fechar conosco</p>
+            <h2>Porque o comércio pequeno precisa vender com aparência de negócio grande.</h2>
+            <p>
+              Eu junto design, estratégia e materiais práticos para o cliente entender sua oferta rápido,
+              confiar mais e ter um caminho claro para falar com você.
+            </p>
+          </div>
+
+          <div class="value-list">
+            <article class="value-item reveal">
+              <span></span>
+              <div>
+                <h3>Foco em venda, não só beleza</h3>
+                <p>Cada tela, arte e PDF é pensado para levar o cliente para a próxima ação.</p>
+              </div>
+            </article>
+            <article class="value-item reveal">
+              <span></span>
+              <div>
+                <h3>Modelo testado em comércio real</h3>
+                <p>O fluxo usado no Garrotão mostra que o pacote funciona em rotina movimentada.</p>
+              </div>
+            </article>
+            <article class="value-item reveal">
+              <span></span>
+              <div>
+                <h3>Entrega prática para divulgar</h3>
+                <p>Você recebe materiais que já fazem sentido no Instagram, WhatsApp, balcão e rua.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: passo a passo de como o projeto funciona. -->
+      <section class="section process-section" id="como-funciona">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Como funciona</p>
+            <h2>Do briefing ao WhatsApp chamando com mais força.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <span>1</span>
+              <h3>Entendo o negócio</h3>
+              <p>Converso com você, entendo produtos, público, bairro, ofertas e objetivo.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>2</span>
+              <h3>Crio a presença visual</h3>
+              <p>Organizo o site, catálogo, artes, QR Code e materiais conforme o pacote.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>3</span>
+              <h3>Deixo pronto para divulgar</h3>
+              <p>Entrego arquivos e links para usar no WhatsApp, Instagram, impressão ou balcão.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>4</span>
+              <h3>Ajusto para converter</h3>
+              <p>Refino chamadas, botões e textos para facilitar o contato do cliente.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: planos, precos, beneficios e mensagens dos botoes de WhatsApp. -->
+      <section class="section section--plans" id="planos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Planos</p>
+            <h2>Escolha um pacote e me chame para montar o melhor caminho para seu negócio.</h2>
+          </div>
+
+          <div class="plans-grid">
+            <article class="plan-card reveal">
+              <p class="plan-label">Plano</p>
+              <!-- Plano START: altere nome, preco, descricao e lista abaixo se precisar. -->
+              <h3>Start</h3>
+              <p class="plan-price">R$ 599,90</p>
+              <p class="plan-meta">Pagamento único · artes e materiais para divulgar</p>
+              <p class="plan-desc">Para deixar suas divulgações mais bonitas e profissionais.</p>
+              <ul>
+                <li>Artes prontas para Instagram</li>
+                <li>Artes para status do WhatsApp</li>
+                <li>QR Code para contato ou catálogo</li>
+                <li>Cartão de visita</li>
+                <li>Cartaz promocional</li>
+                <li>Cardápio simples</li>
+              </ul>
+              <a class="btn btn--primary plan-button" href="#" data-whatsapp data-intent="Olá, Alessandro! Quero fechar ou entender melhor o plano START de R$599,90.">
+                Quero o START
+              </a>
+            </article>
+
+            <article class="plan-card plan-card--featured reveal">
+              <p class="plan-label">Mais popular</p>
+              <!-- Plano PRO: este card recebe destaque visual por causa da classe plan-card--featured. -->
+              <h3>Pro</h3>
+              <p class="plan-price">R$ 1.299,90</p>
+              <p class="plan-meta">Pagamento único · catálogo com produtos e preços</p>
+              <p class="plan-desc">Para mostrar produtos, categorias e preços com clareza.</p>
+              <ul>
+                <li>Tudo do plano START</li>
+                <li>Catálogo digital com produtos precificados</li>
+                <li>Produtos separados por categorias</li>
+                <li>Apresentação visual dos produtos</li>
+                <li>Artes para Instagram</li>
+                <li>Materiais para enviar no WhatsApp</li>
+              </ul>
+              <a class="btn btn--primary plan-button" href="#" data-whatsapp data-intent="Olá, Alessandro! Quero conversar sobre o plano PRO de R$1.299,90.">
+                Quero o PRO
+              </a>
+            </article>
+
+            <article class="plan-card plan-card--premium reveal">
+              <p class="plan-label">Plano</p>
+              <!-- Plano PREMIUM: use quando o preco depender de avaliacao do comercio. -->
+              <h3>Premium</h3>
+              <p class="plan-price plan-price--custom">Orçamento sob medida</p>
+              <p class="plan-meta">Projeto personalizado após entender seu negócio</p>
+              <p class="plan-desc">Para ter site, catálogo e visual mais forte no celular.</p>
+              <ul>
+                <li>Site profissional</li>
+                <li>Identidade visual</li>
+                <li>Catálogo integrado no site</li>
+                <li>Otimização mobile</li>
+                <li>Botões para WhatsApp</li>
+                <li>Suporte prioritário inicial</li>
+              </ul>
+              <a class="btn btn--premium plan-button" href="#" data-whatsapp data-intent="Olá, Alessandro! Quero um orçamento para o plano PREMIUM sob medida.">
+                Quero o PREMIUM
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: manutencao opcional depois da entrega. -->
+      <section class="section maintenance-section" id="manutencao">
+        <div class="container maintenance-grid">
+          <div class="reveal">
+            <p class="eyebrow">Depois da entrega</p>
+            <h2>Seu comércio muda. Seus materiais também precisam acompanhar.</h2>
+            <p>
+              Depois que o projeto fica pronto, você pode contratar atualizações para manter catálogo,
+              preços, produtos, banners, site e materiais sempre alinhados com a rotina do comércio.
+            </p>
+          </div>
+
+          <div class="maintenance-card reveal">
+            <span>Manutenção opcional</span>
+            <ul>
+              <li>Catálogo digital: a partir de R$200/mês</li>
+              <li>Site: valor definido após avaliação</li>
+              <li>Atualização de preços, produtos e chamadas</li>
+              <li>Ajustes conforme frequência e necessidade</li>
+            </ul>
+            <a class="btn btn--ghost" href="#" data-whatsapp data-intent="Olá, Alessandro! Quero entender a manutenção mensal para catálogo ou site.">
+              Entender manutenção
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITE AQUI: chamada final para o cliente chamar no WhatsApp. -->
+      <section class="contact-section" id="contato">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <p class="eyebrow">Contato</p>
+            <h2>Vamos transformar sua divulgação em uma máquina simples de gerar conversa.</h2>
+            <p>
+              Me chama no WhatsApp, me conta seu tipo de comércio e eu te indico o pacote mais inteligente
+              para começar sem complicar.
+            </p>
+          </div>
+
+          <div class="contact-actions reveal">
+            <span>Alessandro Junior · Néctar Ambitionz</span>
+            <a class="btn btn--primary" href="#" data-whatsapp data-intent="Olá, Alessandro! Vi o site da Néctar Ambitionz e quero vender mais online.">
+              Falar no WhatsApp
+            </a>
+            <a class="inline-link inline-link--center" href="https://www.instagram.com/nectar.ambitionz/" target="_blank" rel="noreferrer">
+              Ver Instagram da Néctar
+            </a>
+            <p>WhatsApp: 22 99216-4903</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- EDITE AQUI: rodape do site. -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="brand brand--footer" href="#top" aria-label="Voltar ao topo">
+          <img src="assets/ntr-logo.png" alt="" width="32" height="32">
+          <span>Néctar <strong>Ambitionz</strong></span>
+        </a>
+        <p>Sites, catálogos e identidade visual para pequenos comércios venderem mais.</p>
+      </div>
+    </footer>
+
+    <a class="mobile-whatsapp-cta" href="#" data-whatsapp data-intent="Olá, Alessandro! Quero vender mais online com a Néctar Ambitionz.">
+      Chamar no WhatsApp
+    </a>
+
+    <script src="main.js?v=2"></script>
+  </body>
+</html>
